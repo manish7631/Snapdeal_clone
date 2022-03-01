@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="shortcut icon" href="resource/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="Cart.css">
+</head>
+<body>
+    <div id="container">
+    <h1>Shopping Cart <span id="cartItem"></span></span></h1>
+    
+    <table>
+        <thead id="thead">
+            <tr>
+                <td class = "td">Item Details</td>
+                <td class = "td" id="pricet">Price</td>
+                <td class = "td">Quantity</td>
+                <td class = "td" id="pinCode1">Delivery with Charges <input id="pincodeInp" type="text" placeholder="Pincode"> <button id="btn1" onclick=" pinCode()"  >Check</button> </td>
+                <td class = "td">Subtotal</td>
+            </tr>
+        </thead>
+       
+           
+          
+          <tbody id="tbody">
+              </tbody>
+
+
+       
+    </table>
+</div>
+<div id="bottomdiv">
+    <div id="Div1">
+        <h2>Delivery and payment options can be selected later</h2>
+        <h3>Safe and Secure Payments</h3>
+        <h3>100% Payment Protection, Easy Returns Policy</h3>
+    </div>
+    <div id="Div2">
+        <div id="innerDiv1"> <h2 id="h2sub">Sub Total :</h2>
+            <h2 id="totalprice"> </h2></div>
+
+       <div id="innerDiv2">
+           <h2>Delivery Charges :</h2>
+           <h2 id="charges">Free</h2>
+        </div>
+        
+    </div>
+    <div>
+       <a href="checkout.html"><button id="paymentbtn"></button></a> 
+    </div>
+    
+</div>
+</body>
+</html>
+<script src="Cart.js"></script>
